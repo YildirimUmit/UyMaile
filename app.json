@@ -1,0 +1,8 @@
+{
+  "name": "uymaile",
+  "buildpacks": [
+    {
+      "url": "https://github.com/YildirimUmit/UyMaile"
+    }
+  ]
+}

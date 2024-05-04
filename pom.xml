@@ -10,9 +10,9 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.java.techhub</groupId>
-	<artifactId>spring-boot-email-demo</artifactId>
+	<artifactId>UyMaile</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>spring-boot-email-demo</name>
+	<name>UyMaile</name>
 	<description>Simple spring boot application integrated with spring mail service for sending out emails</description>
 	<properties>
 		<java.version>11</java.version>
