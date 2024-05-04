@@ -59,6 +59,7 @@ public class SimpleEmailService implements EmailService {
 				map.put("uniqueid", UUID.randomUUID().toString());
 				map.put("repo", userLink);
 				map.put("blogtype", userBlogType);
+				map.put("url", usr.getMessage());
 				context.setVariables(map);
 				String process = springTemplateEngine.process("welcome", context);
 				MimeMessage mimeMessage = javaMailSender.createMimeMessage();

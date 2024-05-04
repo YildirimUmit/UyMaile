@@ -28,5 +28,6 @@ public class TargetEmail {
 	private String lastName;
 	
 	private String email;
-	
+
+	private String message;
 }
