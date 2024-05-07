@@ -45,10 +45,11 @@ public class SimpleEmailService implements EmailService {
 	@Override
 	public ArrayList<MaileSendInfo>  sendEmail(MaileUser user) throws MessagingException {
 		ArrayList<MaileSendInfo> maileSendInfos=new ArrayList<MaileSendInfo>();
-		log.info("Sending emails...");
+		log.info("Sending emails... message " );
 		final AtomicInteger counter = new AtomicInteger(0);
 		user.getEmails().forEach(usr -> {
 			try {
+				log.info("Sending message "+usr.toString());
 				Context context = new Context();
 				Map<String, Object> map = new HashMap<>();
 				map.put("firstname", usr.getFirstName());
