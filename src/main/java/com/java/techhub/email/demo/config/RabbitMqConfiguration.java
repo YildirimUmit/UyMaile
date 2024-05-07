@@ -27,8 +27,7 @@ public class RabbitMqConfiguration {
     @Value("${spring.rabbitmq.addresses}")
     private String addresses;
 
-    @Autowired
-    private RabbitTemplate rabbitTemplate;
+
 // yapılacaklar topic
 
     @Bean
